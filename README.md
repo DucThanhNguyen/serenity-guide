@@ -7,43 +7,43 @@ Serenity là một nền tảng ứng dụng ASP.NET MVC / Javascript được x
 Mục đích của Serenity là giúp việc phát triển ứng dụng dễ dàng hơn trong khi giảm chi phí bảo trì bằng cách tránh phải viết lại mã nguồn đã có, giảm thời gian dành cho công việc lặp đi lặp lại và áp dụng các thực hành thiết kế phần mềm tốt nhất.
 
 
-## Ai / gì đàn này là cho
+## Nền tảng này dùng làm gì/dành cho ai
 
-Serenity là thích hợp nhất cho các ứng dụng kinh doanh với hình thức nhập nhiều dữ liệu hoặc giao diện quản trị của trang web phải đối mặt với công chúng. Đó là tính năng có thể hữu ích đối với các loại khác của các ứng dụng web như là tốt.
+Serenity thích hợp nhất với các ứng dụng kinh doanh với rất nhiều biểu mẫu nhập dữ liệu hoặc giao diện quản trị của trang web. Các tính năng của nó cũng có thể hữu ích với nhiều loại ứng dụng web khác.
 
 
 ## Tìm thông tin ở đâu
 
-Sau khi đọc hướng dẫn này và hướng dẫn của nó, hãy làm theo các nguồn tài nguyên dưới đây để biết thêm thông tin về Serenity.
+Sau khi đọc tài liệu này và các bài hướng dẫn, hãy theo dõi các nguồn tài nguyên dưới đây để biết thêm thông tin về Serenity.
 
 <dl>
 
-  <dt>Github Repository:</dt>
+  <dt>Kho lưu trữ trên Github:</dt>
   <dd><a href='https://github.com/volkanceylan/Serenity'>https://github.com/volkanceylan/Serenity</a></dd>
 
-  <dt>Issues / Questions</dt>
+  <dt>Các vấn đề / câu hỏi</dt>
   <dd><a href='https://github.com/volkanceylan/Serenity/issues'>https://github.com/volkanceylan/Serenity/issues</a></dd>
   
-  <dt>Change Log:</dt>
+  <dt>Nhật ký thay đổi:</dt>
   <dd><a href='https://github.com/volkanceylan/Serenity/blob/master/CHANGELOG.md'>https://github.com/volkanceylan/Serenity/blob/master/CHANGELOG.md</a></dd>
 
-  <dt>Serene Application Template:</dt>
+  <dt>Mẫu ứng dụng Serene:</dt>
   <dd><a href='https://visualstudiogallery.msdn.microsoft.com/559ec6fc-feef-4077-b6d5-5a99408a6681'>https://visualstudiogallery.msdn.microsoft.com/559ec6fc-feef-4077-b6d5-5a99408a6681</a></dd>
 
-  <dt>Tutorial / Sample Source Code:</dt>
+  <dt>Mã nguồn Bài hướng dẫn / Ví dụ:</dt>
   <dd><a href='https://github.com/volkanceylan/Serenity-Tutorials'>https://github.com/volkanceylan/Serenity-Tutorials</a></dd>
 
 
 </dl>
 
 
-## What's In The Name
+## Ý nghĩa của tên
 
-Serenity has dictionary meanings of *peace*, *comfort* and *calmness*.
+Serenity theo từ điển có nghĩa là *bình yên*, *thoải mái* và *bình tĩnh*.
 
-This is what we are trying to achieve with Serenity. We hope that after installing and using it you will feel this way too...
+Đây là những gì chúng tôi đang cố gắng để đạt được với Serenity. Chúng tôi hy vọng rằng sau khi cài đặt và sử dụng nó, bạn sẽ cũng sẽ cảm thấy như vậy...
 
-## What Features It Provides
+## Danh sách tính năng
 
 * A modular, service based web application model
 * Code generator to produce initial services / user interface code for an SQL table
@@ -70,11 +70,11 @@ This is what we are trying to achieve with Serenity. We hope that after installi
 * Dynamic scripts
 * Script side templates
 
-## Background
+## Lai lịch
 
-> This part was originally written for a CodeProject article as an introduction to Serenity. The article was rejected with the reason that it didn't contain code but was an ad for code. They were right, as i did put a link to Movie tutorial in this guide, instead of copy pasting code. 
+> Phần này ban đầu được viết như một giới thiệu Serenity trên CodeProject. Bài viết này đã bị từ chối với lý do là nó không chứa mã nguồn mà là quảng cáo. Họ đã đúng, vì tôi đã đặt một liên kết đến bài hướng dẫn ứng dụng Phim trong tài liệu này chứ không sao chép và dán mã nguồn vào bài viết.
 
-> You can safely skip to next chapter, if you don't like reading history :)
+> Bạn có thể bỏ qua chương tiếp theo, nếu bạn không thích đọc lịch sử :)
 
 We, developers, are all solving the same sets of problems everyday. Just like college students working on their problem books.
 
