@@ -1,20 +1,20 @@
-# Introduction
+# Giới thiệu
 
-## What is Serenity Platform
+## Nền tảng Serenity là gì?
 
-Serenity is an ASP.NET MVC / Javascript application platform which has been built on open source technologies.
+Serenity là một nền tảng ứng dụng ASP.NET MVC / Javascript được xây dựng trên công nghệ mã nguồn mở.
 
-It aims to make development easier while reducing maintenance costs by avoiding boiler-plate code, reducing the time spent on repetitive tasks and applying the best software design practices.
-
-
-## Who/What This Platform Is For
-
-Serenity is best suited to business applications with many data entry forms or administrative interface of public facing web sites. It's features can be useful for other kinds of web applications as well.
+Mục đích của Serenity là giúp việc phát triển ứng dụng dễ dàng hơn trong khi giảm chi phí bảo trì bằng cách tránh phải viết lại mã nguồn đã có, giảm thời gian dành cho công việc lặp đi lặp lại và áp dụng các thực hành thiết kế phần mềm tốt nhất.
 
 
-## Where To Look For Information
+## Ai / gì đàn này là cho
 
-After reading this guide and its tutorials, follow resources below for more information about Serenity.
+Serenity là thích hợp nhất cho các ứng dụng kinh doanh với hình thức nhập nhiều dữ liệu hoặc giao diện quản trị của trang web phải đối mặt với công chúng. Đó là tính năng có thể hữu ích đối với các loại khác của các ứng dụng web như là tốt.
+
+
+## Tìm thông tin ở đâu
+
+Sau khi đọc hướng dẫn này và hướng dẫn của nó, hãy làm theo các nguồn tài nguyên dưới đây để biết thêm thông tin về Serenity.
 
 <dl>
 
