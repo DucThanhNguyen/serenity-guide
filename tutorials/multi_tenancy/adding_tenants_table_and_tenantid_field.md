@@ -8,24 +8,22 @@ As Northwind tables already have records, we'll define a primary tenant with ID 
 
 It's time to write a migration, actually two migrations, one for Northwind and one for Default database.
 
-**DefaultDB_20160110_092200_MultiTenant.cs:**
+**DefaultDB_20170430_134800_MultiTenant.cs:**
 
-```cs
+```csharp
 using FluentMigrator;
 
 namespace MultiTenancy.Migrations.DefaultDB
 {
-    [Migration(20160110092200)]
-    public class DefaultDB_20160110_092200_MultiTenant 
+    [Migration(20170430134800)]
+    public class DefaultDB_20170430_134800_MultiTenant
         : AutoReversingMigration
     {
         public override void Up()
         {
-            Create.Table("Tenants")
-                .WithColumn("TenantId").AsInt32()
-                    .Identity().PrimaryKey().NotNullable()
+            this.CreateTableWithId32("Tenants", "TenantId", s => s
                 .WithColumn("TenantName").AsString(100)
-                    .NotNullable();
+                    .NotNullable());
 
             Insert.IntoTable("Tenants")
                 .Row(new
@@ -63,17 +61,19 @@ namespace MultiTenancy.Migrations.DefaultDB
 
 I have created Tenants table in Default database where user tables are. Here we add 3 predefined tenants. We actually only need first one with ID *1*.
 
-We didn't add TenantId column to tables like UserPermissions, UserRoles, RolePermissions etc, as they instrinsicly have TenantId information through their UserId or RoleId.
+We didn't add TenantId column to tables like UserPermissions, UserRoles, RolePermissions etc, as they instrinsicly have TenantId information through their UserId or RoleId (as these tables already have TenantId value)
+
+Let's write another migration for Nortwhind database to add TenantId column to required tables:
 
 **NorthwindDB_20160110_093500_MultiTenant.cs:**
 
-```cs
+```csharp
 using FluentMigrator;
 
 namespace MultiTenancy.Migrations.NorthwindDB
 {
-    [Migration(20160110093500)]
-    public class NorthwindDB_20160110_093500_MultiTenant 
+    [Migration(20170430194100)]
+    public class NorthwindDB_20170430_194100_MultiTenant
         : AutoReversingMigration
     {
         public override void Up()

@@ -1,9 +1,4 @@
-
-
-
-
-
-## Oracle
+# Oracle
 
 > Oracle support is available for Serene 2.2.2+
 
@@ -107,4 +102,3 @@ Next step is to replace connection strings for databases you want to use with Or
 ### Configuring Code Generator
 
 Sergen doesn't have support for Oracle yet, hopefully coming soon...
-
